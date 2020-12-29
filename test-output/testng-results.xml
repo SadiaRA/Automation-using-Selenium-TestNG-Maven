@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-28T22:50:48 CET" name="Suite" finished-at="2020-12-28T22:52:19 CET" duration-ms="90820">
+    <groups>
+    </groups>
+    <test started-at="2020-12-28T22:50:48 CET" name="Test" finished-at="2020-12-28T22:51:38 CET" duration-ms="49730">
+      <class name="Fulll.End2EndProject.HomePage">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Fulll.End2EndProject.HomePage@3d484181]" started-at="2020-12-28T22:50:48 CET" name="basePageNavigation" data-provider="getData" finished-at="2020-12-28T22:51:15 CET" duration-ms="26850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Fulll.End2EndProject.HomePage@3d484181]" started-at="2020-12-28T22:51:15 CET" name="basePageNavigation" data-provider="getData" finished-at="2020-12-28T22:51:38 CET" duration-ms="22619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Fulll.End2EndProject.HomePage@3d484181]" started-at="2020-12-28T22:51:38 CET" name="CloseDriver" finished-at="2020-12-28T22:51:38 CET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- Fulll.End2EndProject.HomePage -->
+    </test> <!-- Test -->
+    <test started-at="2020-12-28T22:51:40 CET" name="Validating title in the Page" finished-at="2020-12-28T22:51:55 CET" duration-ms="15615">
+      <class name="Fulll.End2EndProject.ValidateTitle">
+        <test-method signature="ValidateApptitle()[pri:0, instance:Fulll.End2EndProject.ValidateTitle@485a3466]" started-at="2020-12-28T22:51:40 CET" name="ValidateApptitle" finished-at="2020-12-28T22:51:55 CET" duration-ms="15499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateApptitle -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Fulll.End2EndProject.ValidateTitle@485a3466]" started-at="2020-12-28T22:51:55 CET" name="CloseDriver" finished-at="2020-12-28T22:51:55 CET" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- Fulll.End2EndProject.ValidateTitle -->
+    </test> <!-- Validating title in the Page -->
+    <test started-at="2020-12-28T22:51:55 CET" name="Validating navigation Bar" finished-at="2020-12-28T22:52:19 CET" duration-ms="23614">
+      <class name="Fulll.End2EndProject.ValidateNavigationBar">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:Fulll.End2EndProject.ValidateNavigationBar@76f7d241]" started-at="2020-12-28T22:51:55 CET" name="Initialize" finished-at="2020-12-28T22:52:11 CET" duration-ms="15437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Fulll.End2EndProject.ValidateNavigationBar@76f7d241]" started-at="2020-12-28T22:52:11 CET" name="basePageNavigation" finished-at="2020-12-28T22:52:19 CET" duration-ms="7813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Fulll.End2EndProject.ValidateNavigationBar@76f7d241]" started-at="2020-12-28T22:52:19 CET" name="CloseDriver" finished-at="2020-12-28T22:52:19 CET" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- Fulll.End2EndProject.ValidateNavigationBar -->
+    </test> <!-- Validating navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>
